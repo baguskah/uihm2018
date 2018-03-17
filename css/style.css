@@ -105,9 +105,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 #caption{
 
-    margin-top: 0px;
-    text-align: right;
-    margin-right: 8%;
+  margin-top: 300px;
+  text-align: left;
+  margin-right: 8%;
+  margin-left: 100px;
   }
 
   #alumni-bawah{
@@ -165,7 +166,45 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     display: inherit;
   }
 
+  .grid_sec_info {
+    height: 239px;
+  }
+
+  .caption h1.mean_cap{
+    font-size: 30px;
+    line-height: 70px;
+  }
+
+  .caption h2.sub_cap{
+    font-size: 30px;
+    color: #fff;
+    /* margin-bottom: 50px; */
+  }
+
+  #area-logo-bawah{
+    width: 128px;
+    float: left;
+  }
+
+  .footer_agileinfo_w3 {
+    padding: 1em 0;
+    background: #080808;
 }
+
+}
+
+/* @media only screen (min-width:980px) {
+  .caption h1.mean_cap{
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .caption h2.sub_cap{
+    font-size: 60px;
+    color: #fff;
+
+  }
+} */
 
 .caption h1.mean_cap{
   font-family: "lato-black", Helvetica, Arial, sans-serif;
@@ -1022,6 +1061,7 @@ li.dropdown.act a.w3_icons_act {
 .grid_sec_info {
     padding: 4.7em 5em;
     background: #292929;
+    height: 317px;
 }
 .grid_sec_info.last {
     background: #ffdb0d;
@@ -1105,7 +1145,7 @@ button.top_shoe_cart {
 
 }
 .mid_slider_w3lsagile{
-    background: #292929;
+    background: #ffdb0d;
 }
 .mid_slider_text h5 {
     font-size: 23px;
@@ -1229,7 +1269,7 @@ ul.social-nav.model-3d-0.footer-social.social.two {
     font-size: 1em;
 }
 .address-right{
-	float: right;
+	/* float: right; */
     width: 87%;
 }
 .address-right h6{
