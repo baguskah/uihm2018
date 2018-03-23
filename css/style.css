@@ -103,24 +103,170 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 }
 
-#caption{
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/MaterialIcons-Regular.eot'); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url('../fonts/MaterialIcons-Regular.woff2') format('woff2'),
+    url('../fonts/MaterialIcons-Regular.woff') format('woff'),
+    url('../fonts/MaterialIcons-Regular.ttf') format('truetype');
+}
 
-  margin-top: 300px;
-  text-align: left;
-  margin-right: 8%;
-  margin-left: 100px;
+/* Materialize Icon */
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/* BAGIAN LOGISTIK TEMPAT */
+
+.icon-logistik{border-bottom: 1px solid;color: #ffdb0c;}
+
+.judul-logistik {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* END BAGAIAN LOGISTIK TEMPAT */
+
+
+/* REGISTRASI KATEOGRI */
+
+.Judul {
+    text-align: center;
+        margin-top: 5%;
+}
+
+.head-title-judul{
+  margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: "lato-black", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    color: #262626;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.rute {
+    position: absolute;
+    width: 122px;
+    right: 18px;
+    top: 31px;
+}
+
+.box-registrasi-warper {
+    background: white;
+    padding: 10%;
+    max-width: 500px;
+    margin: 10%;
+}
+
+.kategori-lari {
+    font-size: 35pt;
+    font-family: "lato-black", Helvetica, Arial, sans-serif;
+}
+
+.icon-pendaftaran {
+    position: absolute;
+    right: 35px;
+    top: 1px;
+    opacity: 0.1;
+}
+
+.box-harga {
+    /* float: right; */
+    font-size: 17pt;
+    margin-bottom: 35px;
+    border: 1px solid;
+    padding: 0px 14px;
+    max-width: 205px;
+}
+
+/* END REGISTRASI KATEGORI */
+
+
+
+
+
+#caption{
+  margin-top: 230px;
+text-align: left;
+margin-right: 8%;
+margin-left: 100px;
   }
+
+.caption h1.mean_cap{
+  font-family: "lato-black", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.caption h2.sub_cap{
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  /* margin-bottom: 50px; */
+}
+
+#tempat-banner{
+  font-size: 12pt;
+}
 
   #alumni-bawah{
     display: none;
   }
 
+@media only screen and (min-width:960px){
+  #bg-quote{
+    background: url(../images/bg-quote.jpg) no-repeat 0px -52px;
+      /* padding: 28px; */
+      padding: 1px;
+      height: 312px;
+  }
+
+  #quote-ketua-iluni{
+    margin-left: 210px;
+padding: 12px;
+background: #52525269;
+font-size: 12pt;
+  }
+
+  #keterangan-orang{
+    text-align: right;
+    background:#262626;
+    padding: 10px
+
+  }
+}
+
 @media only screen and (max-width: 960px) {
-  #caption{
-      margin-top: 230px;
-      text-align: right;
-      margin-right: 8%;
-    }
 
     #harga {
         position: relative;
@@ -139,14 +285,62 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     #alumni-bawah{
       display: inherit;
     }
+
+    #caption{
+      margin-top: 230px;
+    text-align: left;
+    margin-right: 8%;
+    margin-left: 100px;
+      }
+
+    .caption h1.mean_cap{
+      font-family: "lato-black", Helvetica, Arial, sans-serif;
+      font-size: 50px;
+      color: #fff;
+      text-transform: uppercase;
+      line-height: 40px;
+    }
+
+    .caption h2.sub_cap{
+      font-family: "lato-light", Helvetica, Arial, sans-serif;
+      font-weight: lighter;
+      font-size: 50px;
+      color: #fff;
+      text-transform: uppercase;
+      /* margin-bottom: 50px; */
+    }
+
+    #tempat-banner{
+      font-size: 12pt;
+    }
+
+    #tempat-banner{
+      font-size: 9pt;
+    }
+
+    #bg-quote{
+      background: url(../images/bg-quote.jpg) no-repeat -116px 0px;
+        /* padding: 28px; */
+        padding: 13px;
+        height: 380px;
+    }
+
+    #quote-ketua-iluni{
+      margin-left: 98px;
+        padding: 12px;
+        background: #52525269;
+    }
+
+    #keterangan-orang{
+      text-align: right;
+    }
+
+
+
 }
 
 @media only screen and (max-width: 600px) {
-  #caption{
-      margin-top: 130px;
-      text-align: right;
-      margin-right: 8%;
-    }
+
 
   #harga {
       position: relative;
@@ -191,6 +385,50 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     background: #080808;
 }
 
+#caption{
+  margin-top: 117px;
+  text-align: left;
+  margin-right: 8%;
+  margin-left: 31px;
+  }
+
+.caption h1.mean_cap{
+  font-family: "lato-black", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+
+.caption h2.sub_cap{
+  font-family: "lato-light", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  /* margin-bottom: 50px; */
+}
+
+#tempat-banner{
+  font-size: 9pt;
+}
+
+#bg-quote{
+  background: url(../images/bg-quote.jpg) no-repeat -116px 0px;
+    /* padding: 28px; */
+    padding: 13px;
+}
+
+#quote-ketua-iluni{
+  margin-left: 67px;
+    padding: 12px;
+    background: #262626;
+}
+
+#keterangan-orang{
+  text-align: right;
+}
+
 }
 
 /* @media only screen (min-width:980px) {
@@ -206,23 +444,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   }
 } */
 
-.caption h1.mean_cap{
-  font-family: "lato-black", Helvetica, Arial, sans-serif;
-  font-size: 60px;
-  color: #fff;
-  text-transform: uppercase;
-  line-height: 70px;
-}
 
-.caption h2.sub_cap{
-  font-family: "lato-light", Helvetica, Arial, sans-serif;
-  font-weight: lighter;
-  font-size: 60px;
-  color: #fff;
-  text-transform: uppercase;
-  line-height: 70px;
-  /* margin-bottom: 50px; */
-}
 
 body {
     margin: 0;
@@ -1001,6 +1223,7 @@ li.dropdown.act a.w3_icons_act {
 }
 .style-grid.style-grid-1 img,.style-grid.style-grid-2 img  {
     width: 100%;
+    height: 100%;
 }
 .style-image-1_info {
     padding: 50px;
@@ -1100,7 +1323,7 @@ button.top_shoe_cart {
 	height: 40px;
 	width: 40px;
 	background: none;
-	border: 2px solid #ffdb0d;
+	border: 2px solid #262626;
 	border-radius: 50%;
 	margin-top:84px;
 	color: #ffdb0d;
@@ -2307,7 +2530,7 @@ p.head_para {
     }
     .style-image-1_info {
         padding: 3em 2em;
-        height: 284px;
+        height: 327px;
     }
     .error_page p {
         font-size: 0.8em;
