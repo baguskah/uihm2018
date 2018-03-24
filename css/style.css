@@ -170,11 +170,38 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     line-height: 50px;
 }
 
-.rute {
+.registrasi-umum{
+  margin-top:15px; margin-top: 15px; background: #f4d218; border-radius: 0; color: #262626;
+}
+
+@media only screen and (max-width: 347px){
+
+  .registrasi-umum{
+    margin-top:15px;
+    margin-top: 15px;
+    background: #f4d218;
+    border-radius: 0;
+    color: #262626;
+    font-size: 7pt;
+  }
+}
+
+@media only screen and (min-width: 600px){
+  .rute {
+      position: absolute;
+      width: 122px;
+      right: 18px;
+      top: 31px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .rute {
     position: absolute;
-    width: 122px;
-    right: 18px;
-    top: 31px;
+    width: 98px;
+    right: 26px;
+    top: -10px;
+  }
 }
 
 .box-registrasi-warper {
@@ -254,14 +281,14 @@ margin-left: 100px;
   #quote-ketua-iluni{
     margin-left: 210px;
 padding: 12px;
-background: #52525269;
+/* background: #52525269; */
 font-size: 12pt;
   }
 
   #keterangan-orang{
-    text-align: right;
-    background:#262626;
-    padding: 10px
+    text-align: center;
+background: #ffdc0e;
+padding: 10px;
 
   }
 }
@@ -328,7 +355,7 @@ font-size: 12pt;
     #quote-ketua-iluni{
       margin-left: 98px;
         padding: 12px;
-        background: #52525269;
+        /* background: #52525269; */
     }
 
     #keterangan-orang{
@@ -422,7 +449,7 @@ font-size: 12pt;
 #quote-ketua-iluni{
   margin-left: 67px;
     padding: 12px;
-    background: #262626;
+    /* background: #262626; */
 }
 
 #keterangan-orang{
@@ -2516,7 +2543,7 @@ p.head_para {
         margin-top: 19px;
     }
     .banner-top, .banner-top1, .banner-top2, .banner-top3 {
-        min-height: 325px;
+        min-height: 370px;
     }
     .banner-info-wthree    {
         padding: 8em 0em 0 0em;

@@ -7,6 +7,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="Alumni Universitas Indonesia akan mengadakan event lari yang mengandung misi sosial untuk penggalangan dana abadi pendidikan di Universitas Indonesia melalui UI HALF MARATHON 2018. Untuk itu kami mengajak keterlibatan anda dalam sebuah event lomba lari yang akan memberikan nilai-nilai kemanusiaan yang tinggi." />
+	<meta property="og:url"                content="http://iluni.ui.ac.id/uihm2018/" />
+	<meta property="og:type"               content="article" />
+	<meta property="og:title"              content="UI Half Marathon 2018" />
+	<meta property="og:description"        content="Alumni Universitas Indonesia akan mengadakan event lari yang mengandung misi sosial untuk penggalangan dana abadi pendidikan di Universitas Indonesia melalui UI HALF MARATHON 2018. Untuk itu kami mengajak keterlibatan anda dalam sebuah event lomba lari yang akan memberikan nilai-nilai kemanusiaan yang tinggi." />
+	<meta property="og:image"              content="/images/uihm.jpg" />
+	<meta name="Title" content="UI Half Marathon 2018">
+	<meta name="Keywords" content="half marathon, Runner, Alumni UI, uihm">
+	<meta name="Description" content=" UIHM 2018 Coming Soon UI HALF MARATHON Universitas Indonesia, 15 Juli 2018 | Start registration 25 maret 18 UI HALF MARATHON 2018 UI Half Marathon 2018 ...">
+	<meta name="Subject" content="UI Half Marathon 2018">
+	<meta name="Language" content="Indonesia">
+	<meta name="Robots" content="INDEX,FOLLOW">
+
+
+
+
 	<script type="application/x-javascript">
 		addEventListener("load", function () {
 			setTimeout(hideURLbar, 0);
@@ -94,10 +109,15 @@
           						<h1 class="mean_cap" id="demo">Coming Soon</h1>
 											<!-- <p id="demo"></p> -->
           						<h2 class="sub_cap">UI HALF MARATHON</h2>
-											<h4 id="tempat-banner">Universitas Indonesia, 15 Juli 2018 | Start registration 25 maret 18</h4>
+											<h4 id="tempat-banner">Universitas Indonesia, 15 July 2018 </h4>
           						<!-- <a href="#" class="btn_details"><span>More Details</span> <img src="img/btn_arrow.png" alt="" class="arrow"></a> -->
 											<!-- <a href="https://registrasi.run.id/event/1207iluni_uihalfmarathon2108" class="btn btn-lg" target="_blank" style="margin-top:15px; margin-top: 15px; background: #f4d218; border-radius: 0; color: #262626;">Register Now</a> -->
 										</div>
+										<div class="button-registrasi-area">
+											<a href="#" id="" class="btn  registrasi-umum" target="_blank" style="">Alumni & Student</a>
+											<a href="#" class="btn  registrasi-umum" target="_blank" >Umum</a>
+										</div>
+
       						</div>
 
 								</div>
@@ -194,8 +214,8 @@
 							kemampuannya namun tetap nyaman.</p>
 
 							<div class="" id="keterangan-orang">
-								<span style="color:white"><b>Arief Budhy Hardono</b><br></span>
-								<span style="color:white">Ketua Umum ILUNI UI</span>
+								<span style="color:#262626"><b>Arief Budhy Hardono</b><br></span>
+								<span style="color:#262626">Ketua Umum ILUNI UI</span>
 							</div>
 
 
@@ -331,7 +351,7 @@
 
 	</div>
 
-		<div class="row" style="background: #c1c1c1;" id="register">
+		<div class="row" style="background: #c1c1c1;" >
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
@@ -440,12 +460,30 @@
 								</div>
 							</div>
 					</div>
+
+					<!-- <div class="row" style="margin-bottom:80px" id="registration">
+						<div class="container text-center">
+							<div class="col-md-6">
+								<p>Public Regisration ?</p>
+								<a href="#" id="" class="btn btn-lg registrasi-umum" target="_blank" style="margin-top:15px; margin-top: 15px; background: #f4d218; border-radius: 0; color: #262626;">Register</a>
+							</div>
+
+
+
+							<div class="col-md-6">
+								<p>Are you Universitas Indonesia alumni or student?</p>
+								<a href="#" class="btn btn-lg registrasi-umum" target="_blank" style="margin-top:15px; margin-top: 15px; background: #f4d218; border-radius: 0; color: #262626;">Click Here</a>
+							</div>
+						</div>
+					</div> -->
 				</div>
+
+
 
 			</div>
 		</div>
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="container" style="margin-top:87px;">
 				<div class="col-md-6">
 					<img class="img img-responsive" src="images/race-finisher-tee-21k.jpg" alt="">
@@ -454,7 +492,7 @@
 					<img class="img img-responsive" src="images/race-finisher-tee.jpg" alt="">
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 		<div class="row">
 
@@ -657,7 +695,7 @@
 		</div>
 	</div>
 
-	<style media="screen">
+	<!-- <style media="screen">
         .sticky-daftar{
           display: block;
           position: fixed;
@@ -676,9 +714,9 @@
 
         <div class="">
           <div class="">
-            <a href="#registration" class="btn btn-warning btn-lg sticky-daftar">Register Now</a>
+            <a href="#registration" class="btn btn-warning btn-lg sticky-daftar">Register</a>
           </div>
-        </div>
+        </div> -->
 	<!-- </div> -->
 	<!-- //footer -->
     <a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
@@ -775,6 +813,19 @@
     		document.getElementById("demo").innerHTML = "EXPIRED";
   		}
 		}, 1000);
+		</script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.registrasi-umum').on('click', function() {
+					event.preventDefault();
+					/* Act on the event */
+					$(this).text('Open on 25 March 2018');
+					$(this).css('background-color', 'black');
+					$(this).css('color', 'white');
+
+				});
+			});
 		</script>
 
 </body>
