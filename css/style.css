@@ -150,13 +150,30 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     margin-bottom: 15px;
 }
 
+
+
 /* END BAGAIAN LOGISTIK TEMPAT */
 
+
+.sponsor {
+  width: 220px;
+    margin: auto;
+    padding: 29px;
+}
+
+.sponsor_image_warper{
+  margin-bottom: 5%;
+}
 
 /* REGISTRASI KATEOGRI */
 
 .Judul {
     text-align: center;
+        margin-top: 5%;
+}
+
+.Judul2 {
+    text-align: left;
         margin-top: 5%;
 }
 
@@ -363,6 +380,16 @@ padding: 10px;
     }
 
 
+
+}
+
+@media only screen and (max-width:321px) {
+  #caption{
+    margin-top: 63px;
+    text-align: left;
+    margin-right: 8%;
+    margin-left: 31px;
+    }
 
 }
 
@@ -2118,7 +2145,7 @@ p.head_para {
         padding: 2em 1em;
     }
     .banner_top.innerpage {
-        background: url(../images/banner3.jpg) no-repeat 0px -21px;
+        background: url(../images/banner-ui-2.jpg) no-repeat 0px -21px;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -2607,7 +2634,7 @@ p.head_para {
         margin-top: 19px;
     }
     .banner-top, .banner-top1, .banner-top2, .banner-top3 {
-        min-height: 289px;
+        min-height: 328px;
     }
     .banner-info-wthree    h3 {
         font-size: 3em;
