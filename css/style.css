@@ -191,6 +191,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   margin-top:15px; margin-top: 15px; background: #f4d218; border-radius: 0; color: #262626;
 }
 
+.registrasi-student{
+  margin-top:15px; margin-top: 15px; background: #c3c3c3; border-radius: 0; color: #262626;
+}
+
 @media only screen and (max-width: 347px){
 
   .registrasi-umum{

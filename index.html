@@ -119,13 +119,15 @@
           						<h1 class="mean_cap" id="demo">Coming Soon</h1>
 											<!-- <p id="demo"></p> -->
           						<h2 class="sub_cap">BNI-UI HALF MARATHON</h2>
-											<h4 id="tempat-banner">University of Indonesia, 15 July 2018 </h4>
+											<h4 id="tempat-banner">University of Indonesia, 15 July 2018. Register yourself before 30 June 2018 </h4>
           						<!-- <a href="#" class="btn_details"><span>More Details</span> <img src="img/btn_arrow.png" alt="" class="arrow"></a> -->
 											<!-- <a href="https://registrasi.run.id/event/1207iluni_uihalfmarathon2108" class="btn btn-lg" target="_blank" style="margin-top:15px; margin-top: 15px; background: #f4d218; border-radius: 0; color: #262626;">Register Now</a> -->
 										</div>
 										<div class="button-registrasi-area">
-											<a href="#" id="alumnistudentreg" class="btn  registrasi-umum" target="_blank" style="">Alumni & Student</a>
-											<a href="#" id="publicreg" class="btn  registrasi-umum" target="_blank" >Public</a>
+                      <a href="#" id="publicreg" class="btn btn-sm btn-lg
+
+                      registrasi-student">Registration Closed</a>
+											<a href="#" id="alumnistudentreg" class="btn btn-sm  registrasi-student"  style="">Alumni Registration is Now Closed</a>
 										</div>
 
       						</div>
@@ -285,6 +287,34 @@
 		</div>
 	</div>
 
+  <div class="container">
+    <div class="row justify-content-center" style="margin:50px">
+      <div class="col-md-12 text-center">
+        <h1><b>Race Pack Collection</b></h1>
+        <hr>
+        <h3>Atrium F3, Fx Sudirman
+          <br>11-12 Juli 2018
+          <br>10.00 – 20.00
+        </h3>
+        <br><br>
+        <p>Catatan : <br>
+          -	Harap sertakan copy email konfirmasi pendaftaran dan fotokopi KTP <br>
+          -	Jika pengambilan diwakilkan, harap menyertakan surat kuasa
+        </p> <br><br>
+        <a href="http://bit.ly/RPCUIHM2018" target="_blank" class="btn btn-warning">Download Surat Kuasa</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="alert alert-warning" role="alert">
+          <b>Hasil dari kegiatan UI Half Marathon 2018 akan didonasikan untuk Makara Investasi.</b>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 	<div class="row" style="margin-right: 50px;
     margin-left: 50px;">
 		<div class="col-md-3 col-sm-6 col-xs-12">
@@ -318,11 +348,11 @@
 							</tr>
 							<tr>
 								<td>10 K</td>
-								<td>05:45 AM</td>
+								<td>05:50 AM</td>
 							</tr>
 							<tr>
 								<td>5 K</td>
-								<td>06:00 AM</td>
+								<td>06:10 AM</td>
 							</tr>
 						</tbody>
 					</table>
@@ -396,7 +426,7 @@
 										<li>Finisher tee</li>
 									</ul>
 								</div>
-								<div class="rute">
+								<div class="">
 									<a href="images/21k.jpg" target="_blank">
 										<img class="img img-responsive" src="images/21k-small.jpg" alt="">
 									</a>
@@ -428,7 +458,7 @@
 										<li>10K finisher medal</li>
 									</ul>
 								</div>
-								<div class="rute">
+								<div class="">
 									<a href="images/10k.jpg" target="_blank">
 										<img class="img img-responsive" src="images/10k-small.jpg" alt="">
 									</a>
@@ -461,7 +491,7 @@
 									</ul>
 								</div>
 
-								<div class="rute">
+								<div class="">
 									<a href="images/5k.jpg" target="_blank">
 										<img class="img img-responsive" src="images/5k-small.jpg" alt="">
 									</a>
@@ -488,6 +518,15 @@
 						</div>
 					</div> -->
 				</div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="alert alert-warning" role="alert">
+              <h3>Jangan lewatkan hadiah pemecahan rekor UIHM 2018 untuk pria dan wanita
+                Total hadiah pemenang Rp 140.000.000
+              </h3>
+            </div>
+          </div>
+        </div>
 
         <div class="row">
           <div class="col-sm-4">
@@ -505,6 +544,9 @@
 
 			</div>
 		</div>
+    <div class="container">
+
+    </div>
 
 
     <!-- Sponsor -->
@@ -881,8 +923,12 @@
   		// If the count down is finished, write some text
   		if (distance2 < 0) {
 
-				$('#alumnistudentreg').attr('href','https://goo.gl/forms/y1NnOAnUKdmJrxpt1');
-				$('#publicreg').attr('href','https://registrasi.run.id/event/1207iluni_uihalfmarathon2108');
+				// $('#alumnistudentreg').attr('href','https://goo.gl/forms/y1NnOAnUKdmJrxpt1');
+        $('#alumnistudentreg').attr('href','#');
+
+				// $('#publicreg').attr('href',' https://registrasi.run.id/event/iluni1207_PX765_uihalfmarathon2108');
+        $('#publicreg').attr('href','#');
+
 
   		}else {
 				$('.registrasi-umum').on('click', function() {
